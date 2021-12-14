@@ -1,0 +1,16 @@
+.card {
+  padding: 2rem;
+  background-color: white;
+  text-align: center;
+  margin: 2rem;
+  max-width: 1100px;
+  direction: rtl;
+  z-index: auto;
+  justify-content: center;
+
+  border-bottom-left-radius: 3rem;
+
+  border-bottom-right-radius: 3rem;
+  border-top-right-radius: 3rem;
+  border-top-left-radius: 3rem;
+}

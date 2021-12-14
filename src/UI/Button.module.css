@@ -1,0 +1,28 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+.button {
+  font: inherit;
+  font-size: 15px;
+  border: 1px solid #4f005f;
+  background: #4f005f;
+  color: white;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  margin-left: 5px;
+  font-family: "Droid Arabic Kufi", serif;
+
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.button:hover,
+.button:active {
+  background: #741188;
+  border-color: #741188;
+}
+
+.button:focus {
+  outline: none;
+}

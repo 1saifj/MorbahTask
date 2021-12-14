@@ -1,0 +1,52 @@
+{
+  "user": [
+    {
+      "specialistName": "df",
+      "repairPrice": "3434",
+      "deviceModel": "df3434",
+      "leftedMoney": "34",
+      "issueType": "34",
+      "receivedMoney": "34",
+      "companyName": "3434",
+      "cleintName": "",
+      "cleintPhone": "",
+      "cleintAddress": "",
+      "receivedBy": "34",
+      "receivedDate": "2021-12-13T19:33",
+      "finishedDate": "2021-12-13T19:33",
+      "handoverBy": "3434",
+      "notes": "34",
+      "isChecked": "",
+      "isRepaired": "",
+      "clientAddress": "34",
+      "clientName": "34",
+      "clientPhone": "3434",
+      "id": 1
+    }
+  ],
+  "addedUsers": [
+    {
+      "username": "saifaljanahi",
+      "loginname": "saif",
+      "password": "123456",
+      "confirmpassword": "123456",
+      "id": 1
+    },
+    {
+      "username": "saifaljanahi",
+      "loginname": "saif",
+      "password": "123456",
+      "confirmpassword": "123456",
+      "id": 2
+    }
+  ],
+  "addedProduct": [
+    {
+      "name": "سيف علي",
+      "price": "15000",
+      "addedDate": "2021-12-13T14:31",
+      "type": "شاشة",
+      "id": 1
+    }
+  ]
+}
