@@ -1,4 +1,4 @@
-# FOLLOW THESE STEPS TO ENSURE IT'S WORKING PROPERLY
+# *FOLLOW THESE STEPS TO ENSURE IT'S WORKING PROPERLY*
 ## #1 Instal Node.Js from offical website  
 ## #2 run `yarn install` to install node modules,  
 ## and if you dont hve 'yarn' already installed on your PC then search for installing yarn.  
