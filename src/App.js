@@ -20,7 +20,7 @@ function App() {
         <Route exact path="/AddDevice" component={AddDevice} />
         <Route exact path="/AddUser" component={AddUser} />
         <Route exact path="/AddProduct" component={AddProduct} />
-        <Route exact path="/addEmployee" component={AddDeviceForm} />
+        <Route exact path="/editDevice" component={AddDeviceForm} />
         <Route exact path="/UpdateAddDevice/:id" component={UpdateAddDevice} />
       </Switch>
     </div>

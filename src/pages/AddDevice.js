@@ -41,7 +41,7 @@ const AddDevice = () => {
   const { users } = useSelector((state) => state.data);
 
   const handleDelete = (id) => {
-    if (window.confirm("Are you sure you want to delete this employee?")) {
+    if (window.confirm("هل تريد الحذف حقا؟")) {
       dispatch(deleteInfo(id));
     }
   };
@@ -66,7 +66,7 @@ const AddDevice = () => {
           style={{ marginLeft: "10px", height: "50px", width: "500px" }}
           variant="contained"
           color="secondary"
-          onClick={() => history.push("/addEmployee")}
+          onClick={() => history.push("/editDevice")}
         >
           إضافة
         </Button>

@@ -12,7 +12,6 @@ import TableCell, { tableCellClasses } from "@mui/material/TableCell";
 import Background from "../UI/Background";
 import Card from "../UI/Card";
 import {
-  Typography,
   TableContainer,
   Table,
   TableHead,

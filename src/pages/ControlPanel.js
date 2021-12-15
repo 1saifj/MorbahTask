@@ -8,7 +8,7 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { useSelector, useDispatch } from "react-redux";
-import { deleteInfo, loadEmployees, loadInformations } from "../redux/actions";
+import { deleteInfo, loadInformations } from "../redux/actions";
 import { Button } from "@mui/material";
 import IconButton from "@mui/material/IconButton";
 import DeleteIcon from "@mui/icons-material/Delete";
@@ -45,7 +45,7 @@ const ControlPanel = () => {
   const { users } = useSelector((state) => state.data);
 
   const handleDelete = (id) => {
-    if (window.confirm("Are you sure you want to delete this employee?")) {
+    if (window.confirm("هل تريد الحذف حقا؟")) {
       dispatch(deleteInfo(id));
     }
   };
