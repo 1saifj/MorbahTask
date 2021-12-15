@@ -15,7 +15,6 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import EditIcon from "@mui/icons-material/Edit";
 import { useHistory } from "react-router-dom";
 import Background from "../UI/Background";
-import { PhoneIcon } from "@chakra-ui/icons";
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
     backgroundColor: theme.palette.common.black,
@@ -88,7 +87,6 @@ const AddDevice = () => {
               <StyledTableCell align="center">مبلغ التصليح</StyledTableCell>
               <StyledTableCell align="center">المتبقي</StyledTableCell>
               <StyledTableCell align="center">إجراءات</StyledTableCell>
-              <PhoneIcon />
             </TableRow>
           </TableHead>
           <TableBody>
