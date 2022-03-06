@@ -1,58 +1,931 @@
 {
-  "user": [
+  "users": [],
+  "Login": [
     {
-      "specialistName": "df",
-      "repairPrice": "3434",
-      "deviceModel": "df3434",
-      "leftedMoney": "34",
-      "issueType": "34",
-      "receivedMoney": "34",
-      "companyName": "3434",
-      "cleintName": "",
-      "cleintPhone": "",
-      "cleintAddress": "",
-      "receivedBy": "34",
-      "receivedDate": "2021-12-13T19:33",
-      "finishedDate": "2021-12-13T19:33",
-      "handoverBy": "3434",
-      "notes": "34",
-      "isChecked": "",
-      "isRepaired": "",
-      "clientAddress": "34",
-      "clientName": "34",
-      "clientPhone": "3434",
-      "id": 1
+      "userName": "saif",
+      "password": "saif"
     }
   ],
-  "addedUsers": [
+  "products": [
     {
-      "username": "saifaljanahi",
-      "loginname": "saif",
-      "password": "123456",
-      "confirmpassword": "123456",
+      "name": "قميص",
+      "productCode": 1000,
+      "productBarcode": 1000,
+      "describition": "لا يوجد",
+      "originalPrice": 5000,
+      "sellPrice": 6000,
+      "quantity": 1,
+      "category": "ملابس",
+      "originalCurrency": "دينار عراقي",
+      "sellCurrency": "دينار عراقي",
+      "status": true,
+      "images": [],
+      "options": [
+        {
+          "id": "a06602ac-f983-44d3-b257-f5010e6cf2bf",
+          "position": 0,
+          "name": "اللون",
+          "values": [
+            "احمر",
+            "اصفر",
+            "ابيض",
+            ""
+          ]
+        },
+        {
+          "id": "5e1ed77f-6a57-483f-8e38-7551e9213dba",
+          "position": 1,
+          "name": "الحجم",
+          "values": [
+            "كبير",
+            "صغير",
+            "متوسط",
+            ""
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "f403a1ca-4618-4423-8853-768f69c6f074",
+          "title": "احمر/كبير",
+          "quantity": 1,
+          "sellPrice": 6000,
+          "code": 1000,
+          "barcode": 1000
+        },
+        {
+          "id": "d2781266-df1a-4d44-991f-e56c87162b3d",
+          "title": "احمر/صغير",
+          "quantity": 1,
+          "sellPrice": 6000,
+          "code": 1000,
+          "barcode": 1000
+        },
+        {
+          "id": "dd9ccb2a-015a-4eda-a448-afbd3d52aaa1",
+          "title": "احمر/متوسط",
+          "quantity": 1,
+          "sellPrice": 6000,
+          "code": 1000,
+          "barcode": 1000
+        },
+        {
+          "id": "99c6e9f1-4041-4d7a-a474-1aa2855dd9e8",
+          "title": "اصفر/كبير",
+          "quantity": 1,
+          "sellPrice": 6000,
+          "code": 1000,
+          "barcode": 1000
+        },
+        {
+          "id": "6f09f94b-3f4c-4247-b5ba-8bd685178344",
+          "title": "اصفر/صغير",
+          "quantity": 1,
+          "sellPrice": 6000,
+          "code": 1000,
+          "barcode": 1000
+        },
+        {
+          "id": "5b1dd751-33aa-4168-a18e-f7170967e082",
+          "title": "اصفر/متوسط",
+          "quantity": 1,
+          "sellPrice": 6000,
+          "code": 1000,
+          "barcode": 1000
+        },
+        {
+          "id": "343f1c38-ba9c-4657-8a21-ab1e468248c5",
+          "title": "ابيض/كبير",
+          "quantity": 1,
+          "code": 1000,
+          "barcode": 1000
+        },
+        {
+          "id": "6eb75abe-20cb-4b8e-ad9d-4f0df2fd80a6",
+          "title": "ابيض/صغير",
+          "quantity": 1,
+          "code": 1000,
+          "barcode": 1000
+        },
+        {
+          "id": "db8a2a8d-9555-44c1-9cc2-1526ba253aff",
+          "title": "ابيض/متوسط",
+          "quantity": 1,
+          "code": 1000,
+          "barcode": 1000
+        }
+      ],
       "id": 1
     },
     {
-      "username": "saifaljanahi",
-      "loginname": "saif",
-      "password": "123456",
-      "confirmpassword": "123456",
+      "name": "test",
+      "productCode": 321,
+      "productBarcode": 321321,
+      "describition": "وصف المادة",
+      "originalPrice": 50,
+      "sellPrice": 80,
+      "quantity": 50,
+      "category": "ملابس اطفال",
+      "originalCurrency": "دينار عراقي",
+      "sellCurrency": "دينار عراقي",
+      "status": true,
+      "options": [
+        {
+          "id": "03501eb6-cc86-422d-a533-b34dcc7195d8",
+          "position": 0,
+          "name": "اللون",
+          "values": [
+            "احمر",
+            "اخضر",
+            "اصفر",
+            ""
+          ]
+        },
+        {
+          "id": "ad7f127e-4086-4935-8d25-b5f431cf8512",
+          "position": 1,
+          "name": "الحجم",
+          "values": [
+            "كبير",
+            "وسط",
+            "صغير",
+            ""
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "1a2a6b29-ecaf-4456-9edf-5f1bfdace2a7",
+          "title": "احمر/كبير",
+          "quantity": 50,
+          "sellPrice": "50",
+          "code": 321,
+          "barcode": 321321
+        },
+        {
+          "id": "6fbd03d9-54a5-4b69-bb87-4f9032c25fd6",
+          "title": "احمر/وسط",
+          "quantity": 50,
+          "sellPrice": "50",
+          "code": 321,
+          "barcode": 321321
+        },
+        {
+          "id": "883a5c18-9735-4204-a612-a3dffc089fe5",
+          "title": "احمر/صغير",
+          "quantity": 50,
+          "sellPrice": "50",
+          "code": 321,
+          "barcode": 321321
+        },
+        {
+          "id": "08b88116-d730-48b4-8145-ebcc806cfd38",
+          "title": "اخضر/كبير",
+          "quantity": 50,
+          "sellPrice": 60,
+          "code": 321,
+          "barcode": 321321
+        },
+        {
+          "id": "742fb191-76f1-4255-8a44-de15d84c4796",
+          "title": "اخضر/وسط",
+          "quantity": 50,
+          "sellPrice": 60,
+          "code": 321,
+          "barcode": 321321
+        },
+        {
+          "id": "84c753e0-8962-49c7-a024-76360ae3fdac",
+          "title": "اخضر/صغير",
+          "quantity": 50,
+          "sellPrice": "80",
+          "code": 321,
+          "barcode": 321321
+        },
+        {
+          "id": "0db22926-7db2-43d3-8ffb-77775bb7b672",
+          "title": "اصفر/كبير",
+          "quantity": 50,
+          "sellPrice": 60,
+          "code": 321,
+          "barcode": 321321
+        },
+        {
+          "id": "7fa7cbc8-ca64-43a2-b926-e5408c03421d",
+          "title": "اصفر/وسط",
+          "quantity": 50,
+          "sellPrice": 60,
+          "code": 321,
+          "barcode": 321321
+        },
+        {
+          "id": "af57bfb5-27f8-4789-8316-aa19529098b1",
+          "title": "اصفر/صغير",
+          "quantity": 50,
+          "sellPrice": 60,
+          "code": 321,
+          "barcode": 321321
+        }
+      ],
+      "images": [],
       "id": 2
     }
   ],
-  "addedProduct": [
+  "Accounts": [
     {
-      "name": "سيف علي",
-      "price": "15000",
-      "addedDate": "2021-12-13T14:31",
-      "type": "شاشة",
+      "accountName": "",
+      "accountType": "دائمي",
+      "email": "",
+      "phoneNumber": "",
+      "provinance": "بغداد",
+      "date": "",
+      "currency": "دولار",
+      "debtMoney": "",
+      "ownedMoeny": "",
+      "address": "",
+      "notes": "",
+      "isAvaliable": "",
+      "id": 4
+    },
+    {
+      "accountName": "",
+      "accountType": "دائمي",
+      "email": "",
+      "phoneNumber": "",
+      "provinance": "بغداد",
+      "date": "",
+      "currency": "دولار",
+      "debtMoney": "",
+      "ownedMoeny": "",
+      "address": "",
+      "notes": "",
+      "isAvaliable": "",
+      "id": 5
+    },
+    {
+      "accountName": "",
+      "accountType": "دائمي",
+      "email": "",
+      "phoneNumber": "",
+      "provinance": "بغداد",
+      "date": "",
+      "currency": "دولار",
+      "debtMoney": "",
+      "ownedMoeny": "",
+      "address": "",
+      "notes": "",
+      "isAvaliable": "",
+      "id": 6
+    }
+  ],
+  "Combinations": [],
+  "Variants": [
+    {
+      "name": "اللون",
+      "variants": [
+        {
+          "id": "e637bd15-d5e3-486b-aba3-3193cfb621bd",
+          "variantName": "احمر"
+        },
+        {
+          "id": "7546d9dd-410e-4bd7-99f2-cea7b5fd558b",
+          "variantName": "اصفر"
+        },
+        {
+          "id": "7546d9dd-410e-4bd7-42f2-cea7b5fd558b",
+          "variantName": "اسود"
+        }
+      ],
       "id": 1
     },
     {
-      "name": "saifalialjanahi@gmail.com",
-      "price": "dg",
-      "addedDate": "2021-12-15T19:08",
-      "type": "dg",
+      "name": "الحجم",
+      "variants": [
+        {
+          "id": "7546d9dd-410e-4bd7-99f2-cea7b5fd558b",
+          "variantName": "كبير"
+        },
+        {
+          "id": "e637bd15-d5e3-486b-aba3-3193cfb621bd",
+          "variantName": "متوسط"
+        },
+        {
+          "id": "e637bd15-d5e3-486b-aba3-3193cfb621b56d",
+          "variantName": "صغير"
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "cashreceipts": [
+    {
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "accountName": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 1
+    },
+    {
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "accountName": "",
+      "email": "",
+      "moneyAmounts": 2228,
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 2
+    },
+    {
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "accountName": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 3
+    },
+    {
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "accountName": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 4
+    },
+    {
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "accountName": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 5
+    },
+    {
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "accountName": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 6
+    },
+    {
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 7
+    },
+    {
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 8
+    },
+    {
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 9
+    },
+    {
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "accountName": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 10
+    },
+    {
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "accountName": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 11
+    },
+    {
+      "accountName": "dfdfdf",
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 12
+    },
+    {
+      "accountName": "",
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 13
+    },
+    {
+      "accountName": "saiff",
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 14
+    },
+    {
+      "accountName": "",
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 15
+    },
+    {
+      "accountName": "سيف  علي ",
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 16
+    },
+    {
+      "accountName": "",
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 17
+    },
+    {
+      "accountName": [],
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 18
+    },
+    {
+      "accountName": [],
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 19
+    },
+    {
+      "accountName": [],
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 20
+    },
+    {
+      "accountName": [],
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 21
+    },
+    {
+      "accountName": [],
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 22
+    },
+    {
+      "accountName": "",
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 23
+    },
+    {
+      "accountName": "saif",
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 24
+    },
+    {
+      "accountName": "saif",
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 25
+    },
+    {
+      "accountName": "",
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 26
+    },
+    {
+      "accountName": "saif",
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 27
+    },
+    {
+      "accountName": "سيف  علي",
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 28
+    },
+    {
+      "accountName": "سمير",
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 29
+    },
+    {
+      "accountName": "سمير",
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 30
+    },
+    {
+      "accountName": "سيف علي",
+      "documentNumber": "",
+      "currency": "",
+      "date": "",
+      "email": "",
+      "moneyAmounts": "",
+      "moenyAmountsCurrency": "",
+      "discountType": "",
+      "discountAmount": "",
+      "moneyAmountsAsText": "",
+      "satatment": "",
+      "id": 31
+    }
+  ],
+  "SellsBills": [
+    {
+      "accountName": [],
+      "phoneNumber": 13024448144,
+      "email": "saifalialjanahi@gmail.com",
+      "provinance": "",
+      "currency": "d",
+      "date": "",
+      "discountType": "نسبة",
+      "discountAmount": 12,
+      "address": "601 Carson DR #10547",
+      "menuNumber": "5353",
+      "notes": "",
+      "totalPrice": "",
+      "resource": "",
+      "deliveryCompany": "",
+      "totalPriceAfterDiscount": "",
+      "products": "",
+      "id": 1
+    }
+  ],
+  "PurchasesBills": [
+    {
+      "accountName": "سيف علي",
+      "phoneNumber": "",
+      "email": "",
+      "provinance": "بغداد",
+      "currency": "دينار عراقي",
+      "date": "",
+      "discountType": "مقطوعة",
+      "discountAmount": "",
+      "receivedMoney": "",
+      "previousDebts": "",
+      "currentDebts": "",
+      "leftedMoney": "",
+      "address": "",
+      "menuNumber": "",
+      "notes": "",
+      "totalPrice": "",
+      "totalPriceAfterDiscount": "",
+      "products": "",
+      "id": 7
+    },
+    {
+      "accountName": "سيف علي",
+      "phoneNumber": "",
+      "email": "",
+      "provinance": "بغداد",
+      "currency": "دينار عراقي",
+      "date": "",
+      "discountType": "مقطوعة",
+      "discountAmount": "",
+      "receivedMoney": "",
+      "previousDebts": "",
+      "currentDebts": "",
+      "leftedMoney": "",
+      "address": "",
+      "menuNumber": "",
+      "notes": "",
+      "totalPrice": "",
+      "totalPriceAfterDiscount": "",
+      "products": "",
+      "id": 8
+    },
+    {
+      "accountName": [],
+      "phoneNumber": "",
+      "email": "",
+      "provinance": "بغداد",
+      "currency": "دينار عراقي",
+      "date": "",
+      "discountType": "مقطوعة",
+      "discountAmount": "",
+      "receivedMoney": "",
+      "previousDebts": "",
+      "currentDebts": "",
+      "leftedMoney": "",
+      "address": "",
+      "menuNumber": "",
+      "notes": "",
+      "totalPrice": "",
+      "totalPriceAfterDiscount": "",
+      "products": "",
+      "id": 9
+    },
+    {
+      "accountName": [],
+      "phoneNumber": "",
+      "email": "",
+      "provinance": "بغداد",
+      "currency": "دينار عراقي",
+      "date": "",
+      "discountType": "مقطوعة",
+      "discountAmount": "",
+      "receivedMoney": "",
+      "previousDebts": "",
+      "currentDebts": "",
+      "leftedMoney": "",
+      "address": "",
+      "menuNumber": "",
+      "notes": "",
+      "totalPrice": "",
+      "totalPriceAfterDiscount": "",
+      "products": "",
+      "id": 10
+    }
+  ],
+  "categories": [
+    {
+      "category": "ملابس",
+      "subCategory": [
+        {
+          "name": "ملابس رجالية",
+          "id": "60",
+          "subCategory": [
+            {
+              "subname": "قمصان",
+              "id": "61"
+            }
+          ]
+        },
+        {
+          "subCategory": [
+            {
+              "subname": "قمصان",
+              "id": "62"
+            }
+          ],
+          "name": "ملابس نسائية"
+        },
+        {
+          "subCategory": [
+            {
+              "subname": "قمصان",
+              "id": "63"
+            }
+          ],
+          "name": "ملابس اطفال"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "category": "اجهزة",
+      "subCategory": [
+        {
+          "name": "موبايلات",
+          "id": "1",
+          "subCategory": [
+            {
+              "subname": "سامسونك",
+              "id": "2"
+            },
+            {
+              "subname": "ابل"
+            }
+          ]
+        },
+        {
+          "subCategory": [
+            {
+              "subname": "",
+              "id": "6"
+            }
+          ],
+          "name": "كمبيوترات"
+        },
+        {
+          "subCategory": [
+            {
+              "subname": "",
+              "id": "7"
+            }
+          ]
+        }
+      ],
       "id": 2
     }
   ]
